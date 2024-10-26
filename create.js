@@ -16,7 +16,7 @@ db.connect((err) => {
 
     // Create a table
     const createTableQuery = `
-        CREATE TABLE IF NOT EXISTS ex (
+        CREATE TABLE IF NOT EXISTS node (
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(255) NOT NULL
         )
